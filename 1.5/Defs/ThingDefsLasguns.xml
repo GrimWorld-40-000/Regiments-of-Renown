@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- ====================== Locke MKI  ===================== -->
+
+    <ThingDef ParentName="GW_AM_LasgunBase">
+        <defName>GW_HOI_ROR_Gun_lasLock</defName>
+        <label>Las-Lock</label>
+        <description>A lightweight lascarbine of the Locke MKI pattern, used by the Astra Militarum. It outputs a single lasbolt per trigger pull, allowing it to lay down a steady stream of fire at the enemy. \n\nIt is not unknown for Guardsmen to simply disappear. Some are mere deserters, others are snapped up in the night by unseen enemies. Others still, however, are pressed into the service of the Inquisition.</description>
+        <graphicData>
+            <texPath>Misc/Laslock</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>19400</WorkToMake>
+            <Mass>3.5</Mass>
+            <AccuracyTouch>0.35</AccuracyTouch>
+            <AccuracyShort>0.50</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.65</AccuracyLong>
+            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>110</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <weaponClasses>
+            <li>LongShots</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GW_HOI_Bullet_Lasgun</defaultProjectile>
+                <warmupTime>1.2</warmupTime>
+                <range>35.0</range>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>GW_AM_Gun_Locke</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+		<recipeMaker>
+            <researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
+		</recipeMaker>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>
