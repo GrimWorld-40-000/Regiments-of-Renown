@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>GrimWorld 40,000 - Regiments of Renown</name>
+  <author>Clashgore, Eridanus, Jerry The Cultist, BlackMarket420, Abomination, Shun The Witch, Sophia Orr</author>
+  <packageId>Grimworld.RegimentsOfRenown</packageId>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/Krieg_ModIcon</modIconPath>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+
+  <modDependencies>
+	<li>
+          <packageId>Grimworld.Framework</packageId>
+          <displayName>GrimWorld 40,000 - Framework</displayName>
+          <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3119805903</steamWorkshopUrl> 
+          <downloadUrl>https://github.com/GrimWorld-40-000/GrimWorld-Framework</downloadUrl>
+    </li>
+    <li>
+      <packageId>Grimworld.Core</packageId>
+      <displayName>Grimworld 40,000 - Core Imperialis</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3018671708</steamWorkshopUrl>
+	  <downloadUrl>https://github.com/GrimWorld-40-000/Core-Imperialis</downloadUrl>
+    </li>
+    <li>
+		<packageId>Grimworld.AstraMilitarum</packageId>
+		<displayName>Hammer of the Imperium</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/3015391450</steamWorkshopUrl>
+	</li>
+
+  </modDependencies>
+
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+	  <li>vanillaexpanded.achievements</li>
+    <li>SmashPhil.VehicleFramework</li>
+    <li>ceteam.combatextended</li>
+    <li>Grimworld.Core</li>
+    <li>Grimworld.AstraMilitarum</li>
+  </loadAfter>
+
+  <description>
+"Island of misfit toys"
+  </description>
+</ModMetaData>
