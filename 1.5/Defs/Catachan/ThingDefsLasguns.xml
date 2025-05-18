@@ -27,6 +27,9 @@
         <weaponClasses>
             <li>LongShots</li>
         </weaponClasses>
+        <equippedStatOffsets>
+            <MoveSpeed>0.05</MoveSpeed>
+        </equippedStatOffsets>
         <weaponTags>
             <li>SpacerGun</li>
             <li>CatachanLasGun</li>
