@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- ====================== MK4 Lascarbine ===================== -->
+
+    <ThingDef ParentName="GW_AM_LasgunBase">
+        <defName>GW_HOI_ROR_Gun_Lascarbinefour</defName>
+        <label>MK4 lascarbine</label>
+        <description>A shortened lasgun, better suited for combat in denser environments. This particular model of lasgun is popular with the Catachan Jungle Fighters. \n\nJungle worlds can be found across the Imperium, and many are so deadly that they can be considered an enemy in themselves. They often pale in comparison to Catachan, however - some Jungle Fighters deployed to the Ork-infested Equatorial Jungle of Armageddon described their situation as being akin to paid leave.</description>
+        <graphicData>
+            <texPath>Catachan/Things/Weapons/MK4 Lascarbine</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>16000</WorkToMake>
+            <Mass>2.8</Mass>
+            <AccuracyTouch>0.70</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.55</AccuracyMedium>
+            <AccuracyLong>0.40</AccuracyLong>
+            <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
+            <MarketValue>450</MarketValue>
+        </statBases>
+        <costList>
+            <Steel>20</Steel>
+            <Plasteel>10</Plasteel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <weaponClasses>
+            <li>LongShots</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SpacerGun</li>
+            <li>CatachanLasGun</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GW_HOI_Bullet_Lasgun</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>25.0</range>
+                <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>GW_AM_Gun_Lascarbinefour</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+		<recipeMaker>
+            <researchPrerequisite>GW_AM_Catachan</researchPrerequisite>
+		</recipeMaker>
+        <tools>
+             <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>

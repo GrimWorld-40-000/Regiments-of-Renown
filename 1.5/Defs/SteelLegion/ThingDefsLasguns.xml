@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- ====================== Voss MKI ===================== -->
+
+    <ThingDef ParentName="GW_AM_LasgunBase">
+        <defName>GW_HOI_ROR_Gun_VossPattern</defName>
+        <label>Voss MKI</label>
+        <description>The standard-issue lasgun of the Armageddon Steel Legion. It fires a burst of lasbolts at the target, with respectable range and firepower. \n\nEven outside of their tanks and armored vehicles, Armageddon’s Guardsmen are no slouches in infantry fighting. As the Orks of WAAAGH! Ghazghkull warred for control of the planet, the opening of the Great Rift turned the battle into a three-way contest as orks, daemons, and the Imperium clashed.</description>
+        <graphicData>
+            <texPath>SteelLegion/Things/Weapons/Voss MKI</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>16000</WorkToMake>
+            <Mass>3.1</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.60</AccuracyMedium>
+            <AccuracyLong>0.50</AccuracyLong>
+            <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
+            <MarketValue>425</MarketValue>
+        </statBases>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <weaponClasses>
+            <li>LongShots</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>SpacerGun</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GW_HOI_Bullet_Lasgun</defaultProjectile>
+                <warmupTime>1.00</warmupTime>
+                <range>30.0</range>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>GW_AM_Gun_Kantrael</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+		<recipeMaker>
+            <researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
+		</recipeMaker>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <armorPenetration>0.13</armorPenetration>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>
