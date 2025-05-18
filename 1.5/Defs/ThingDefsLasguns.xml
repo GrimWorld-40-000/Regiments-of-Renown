@@ -5,7 +5,7 @@
     <ThingDef ParentName="GW_AM_LasgunBase">
         <defName>GW_HOI_ROR_Gun_lasLock</defName>
         <label>Las-Lock</label>
-        <description>A lightweight lascarbine of the Locke MKI pattern, used by the Astra Militarum. It outputs a single lasbolt per trigger pull, allowing it to lay down a steady stream of fire at the enemy. \n\nIt is not unknown for Guardsmen to simply disappear. Some are mere deserters, others are snapped up in the night by unseen enemies. Others still, however, are pressed into the service of the Inquisition.</description>
+        <description>Put on your powdered wig with this classic hit. WIP.</description>
         <graphicData>
             <texPath>Misc/Laslock</texPath>
         </graphicData>
