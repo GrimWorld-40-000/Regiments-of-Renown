@@ -3,7 +3,7 @@
   <name>GrimWorld 40,000 - Regiments of Renown</name>
   <author>Clashgore, Eridanus, Jerry The Cultist, BlackMarket420, Abomination, Shun The Witch, Sophia Orr</author>
   <packageId>Grimworld.RegimentsOfRenown</packageId>
-  <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/Krieg_ModIcon</modIconPath>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/RegimentsOfRenownModIcon</modIconPath>
   <supportedVersions>
     <li>1.5</li>
   </supportedVersions>
