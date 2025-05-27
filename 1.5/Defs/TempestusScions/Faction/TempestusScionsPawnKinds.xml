@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+        <!--Tempestus Scions-->
+    <PawnKindDef ParentName="GW_HOI_RangedTier1">
+        <defName>GW_AM_TempestusScion_RangedTier1</defName>
+        <label>tempestus scion conscript</label>
+        <apparelTags Inherit="False">
+            <li>40kTempestusScion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>ODZ_40k_IM_TempestusScion_Mask</li>
+            <li>ODZ_40k_IM_TempestusScion_Fatigues</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier1">
+        <defName>GW_AM_TempestusScion_MeleeTier1</defName>
+        <label>tempestus scion conscript</label>
+        <apparelTags Inherit="False">
+            <li>40kTempestusScion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>ODZ_40k_IM_TempestusScion_Mask</li>
+            <li>ODZ_40k_IM_TempestusScion_Fatigues</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_RangedTier2">
+        <defName>GW_AM_TempestusScion_RangedTier2</defName>
+        <label>tempestus scion trooper</label>
+        <apparelTags Inherit="False">
+            <li>40kTempestusScion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>ODZ_40k_IM_TempestusScion_CarapaceArmor</li>
+            <li>ODZ_40k_IM_TempestusScion_Mask</li>
+            <li>ODZ_40k_IM_TempestusScion_Fatigues</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier2">
+        <defName>GW_AM_TempestusScion_MeleeTier2</defName>
+        <label>tempestus scion trooper</label>
+        <apparelTags Inherit="False">
+            <li>40kTempestusScion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>ODZ_40k_IM_TempestusScion_CarapaceArmor</li>
+            <li>ODZ_40k_IM_TempestusScion_Mask</li>
+            <li>ODZ_40k_IM_TempestusScion_Fatigues</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_RangedTier3">
+        <defName>GW_AM_TempestusScion_RangedTier3</defName>
+        <label>tempestus scion sergeant</label>
+        <apparelTags Inherit="False">
+            <li>40kTempestusScion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>ODZ_40k_IM_TempestusScion_CarapaceArmor</li>
+            <li>ODZ_40k_IM_TempestusScion_Mask</li>
+            <li>ODZ_40k_IM_TempestusScion_Helmet</li>
+            <li>ODZ_40k_IM_TempestusScion_Fatigues</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier3">
+        <defName>GW_AM_TempestusScion_MeleeTier3</defName>
+        <label>tempestus scion sergeant</label>
+        <apparelTags Inherit="False">
+            <li>40kTempestusScion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>ODZ_40k_IM_TempestusScion_CarapaceArmor</li>
+            <li>ODZ_40k_IM_TempestusScion_Mask</li>
+            <li>ODZ_40k_IM_TempestusScion_Helmet</li>
+            <li>ODZ_40k_IM_TempestusScion_Fatigues</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_RangedTier3">
+        <defName>GW_AM_TempestusScion_Officer</defName>
+        <label>tempestus scion officer</label>
+        <combatPower>160</combatPower>
+        <apparelMoney>4500~5000</apparelMoney>
+        <apparelTags Inherit="False">
+            <li>40kTempestusScion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>ODZ_40k_IM_TempestusScion_CarapaceArmor</li>
+            <li>ODZ_40k_IM_TempestusScion_Mask</li>
+            <li>ODZ_40k_IM_TempestusScion_Beret</li>
+            <li>ODZ_40k_IM_TempestusScion_Fatigues</li>
+        </apparelRequired>
+    </PawnKindDef>
+</Defs>

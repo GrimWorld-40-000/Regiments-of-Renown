@@ -7,7 +7,7 @@
         <label>Voss MKI</label>
         <description>The standard-issue lasgun of the Armageddon Steel Legion. It fires a burst of lasbolts at the target, with respectable range and firepower. \n\nEven outside of their tanks and armored vehicles, Armageddon’s Guardsmen are no slouches in infantry fighting. As the Orks of WAAAGH! Ghazghkull warred for control of the planet, the opening of the Great Rift turned the battle into a three-way contest as orks, daemons, and the Imperium clashed.</description>
         <graphicData>
-            <texPath>SteelLegion/Things/Weapons/Voss MKI</texPath>
+            <texPath>SteelLegion/Weapons/Voss MKI</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>16000</WorkToMake>
