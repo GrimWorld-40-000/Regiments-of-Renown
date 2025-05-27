@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+        <!--Tallarn Desert Raiders-->
+    <PawnKindDef ParentName="GW_HOI_RangedTier1">
+        <defName>GW_AM_TallarnDesertRaiders_RangedTier1</defName>
+        <label>tallarn desert raider conscript</label>
+        <apparelTags Inherit="False">
+            <li>40kTallarnDesertRaiders</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_TDR_DesertFatigues</li>
+            <li>GW_AM_TDR_Goggles</li>
+            <li>GW_AM_TDR_DesertGear</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier1">
+        <defName>GW_AM_TallarnDesertRaiders_MeleeTier1</defName>
+        <label>tallarn desert raider conscript</label>
+        <apparelTags Inherit="False">
+            <li>40kTallarnDesertRaiders</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_TDR_DesertFatigues</li>
+            <li>GW_AM_TDR_Goggles</li>
+            <li>GW_AM_TDR_DesertGear</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_RangedTier2">
+        <defName>GW_AM_TallarnDesertRaiders_RangedTier2</defName>
+        <label>tallarn desert raider trooper</label>
+        <apparelTags Inherit="False">
+            <li>40kTallarnDesertRaiders</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_TDR_DesertFatigues</li>
+            <li>GW_AM_TDR_GogglesHeadwrap</li>
+            <li>GW_AM_TDR_DesertGear</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier2">
+        <defName>GW_AM_TallarnDesertRaiders_MeleeTier2</defName>
+        <label>tallarn desert raider trooper</label>
+        <apparelTags Inherit="False">
+            <li>40kTallarnDesertRaiders</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_TDR_DesertFatigues</li>
+            <li>GW_AM_TDR_GogglesHeadwrap</li>
+            <li>GW_AM_TDR_DesertGear</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_RangedTier3">
+        <defName>GW_AM_TallarnDesertRaiders_RangedTier3</defName>
+        <label>tallarn desert raider sergeant</label>
+        <apparelTags Inherit="False">
+            <li>40kTallarnDesertRaiders</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_TDR_DesertFatigues</li>
+            <li>GW_AM_TDR_GogglesHeadwrap</li>
+            <li>GW_AM_TDR_DesertGear</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier3">
+        <defName>GW_AM_TallarnDesertRaiders_MeleeTier3</defName>
+        <label>tallarn desert raider sergeant</label>
+        <apparelTags Inherit="False">
+            <li>40kTallarnDesertRaiders</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_TDR_DesertFatigues</li>
+            <li>GW_AM_TDR_GogglesHeadwrap</li>
+            <li>GW_AM_TDR_DesertGear</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_RangedTier3">
+        <defName>GW_AM_TallarnDesertRaiders_Officer</defName>
+        <label>tallarn desert raider officer</label>
+        <combatPower>160</combatPower>
+        <apparelMoney>4500~5000</apparelMoney>
+        <apparelTags Inherit="False">
+            <li>40kTallarnDesertRaiders</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_TDR_DesertFatigues</li>
+            <li>GW_AM_TDR_OfficerHeadwrap</li>
+            <li>GW_AM_TDR_DesertGear</li>
+        </apparelRequired>
+    </PawnKindDef>
+</Defs>
