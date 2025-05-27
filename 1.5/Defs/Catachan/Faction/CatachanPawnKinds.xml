@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+        <!--Catachan-->
+    <PawnKindDef ParentName="GW_HOI_RangedTier1">
+        <defName>GW_HOI_ROR_Catachan_RangedTier1</defName>
+        <label>catachan conscript</label>
+        <apparelTags Inherit="False">
+            <li>40kCatachan</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_HOI_ROR_CatachanArmor</li>
+            <li>GW_HOI_ROR_CatachanBandana</li>
+            <li>GW_HOI_ROR_CatachanFatigues</li>
+            <li>GW_HOI_ROR_CatachanOuter</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier1">
+        <defName>GW_HOI_ROR_Catachan_MeleeTier1</defName>
+        <label>catachan conscript</label>
+        <apparelTags Inherit="False">
+            <li>40kCatachan</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_HOI_ROR_CatachanArmor</li>
+            <li>GW_HOI_ROR_CatachanBandana</li>
+            <li>GW_HOI_ROR_CatachanFatigues</li>
+            <li>GW_HOI_ROR_CatachanOuter</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_RangedTier2">
+        <defName>GW_HOI_ROR_Catachan_RangedTier2</defName>
+        <label>catachan trooper</label>
+        <apparelTags Inherit="False">
+            <li>40kCatachan</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_HOI_ROR_CatachanArmor</li>
+            <li>GW_HOI_ROR_CatachanBandana</li>
+            <li>GW_HOI_ROR_CatachanFatigues</li>
+            <li>GW_HOI_ROR_CatachanOuter</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier2">
+        <defName>GW_HOI_ROR_Catachan_MeleeTier2</defName>
+        <label>catachan trooper</label>
+        <apparelTags Inherit="False">
+            <li>40kCatachan</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_HOI_ROR_CatachanArmor</li>
+            <li>GW_HOI_ROR_CatachanBandana</li>
+            <li>GW_HOI_ROR_CatachanFatigues</li>
+            <li>GW_HOI_ROR_CatachanOuter</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_RangedTier3">
+        <defName>GW_HOI_ROR_Catachan_RangedTier3</defName>
+        <label>catachan sergeant</label>
+        <apparelTags Inherit="False">
+            <li>40kCatachan</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_HOI_ROR_CatachanArmor</li>
+            <li>GW_HOI_ROR_CatachanBandana</li>
+            <li>GW_HOI_ROR_CatachanFatigues</li>
+            <li>GW_HOI_ROR_CatachanOuter</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier3">
+        <defName>GW_HOI_ROR_Catachan_MeleeTier3</defName>
+        <label>catachan sergeant</label>
+        <apparelTags Inherit="False">
+            <li>40kCatachan</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_HOI_ROR_CatachanArmor</li>
+            <li>GW_HOI_ROR_CatachanBandana</li>
+            <li>GW_HOI_ROR_CatachanFatigues</li>
+            <li>GW_HOI_ROR_CatachanOuter</li>
+        </apparelRequired>
+    </PawnKindDef>
+</Defs>

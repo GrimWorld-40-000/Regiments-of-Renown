@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>  
+            <!-- Catachan Armor  -->
+
+    <ThingDef ParentName="GW_AM_ArmorBase">
+        <defName>GW_HOI_ROR_CatachanArmor</defName>
+        <label>Catachan armor</label>
+        <description>A vest of Flak Armor, in Catachan fashion. The Jungle Fighters wear a lightweight version of Flak Armor, believing in speed and concealment over cumbersome protection. \n\nThe Catachan Jungle Fighters are notoriously free-spirited and insular, and only respect those who prove themselves worthy of it. This extends to officers and other leaders, with many Guardsmen choosing to follow the direction of veteran NCOs over inexperienced officers.</description>
+        <techLevel>Industrial</techLevel>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_Catachan</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Catachan/CatachanMid/CatachanMiddle_Male_south</texPath>
+            <drawSize>1.5</drawSize>
+        </graphicData>
+        <statBases>
+            <WorkToMake>9000</WorkToMake>
+            <MaxHitPoints>200</MaxHitPoints>
+            <Mass>4.5</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.60</ArmorRating_Heat>
+			<Insulation_Heat>1</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.1</MoveSpeed>
+        </equippedStatOffsets>
+		<costList>
+            <Steel>90</Steel>
+        </costList>		
+        <apparel>
+            <wornGraphicPath>Things/Catachan/CatachanMid/CatachanMiddle</wornGraphicPath>
+            <tags>
+                <li>40kCatachan</li>
+                <li>40kCatachanArmor</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>
