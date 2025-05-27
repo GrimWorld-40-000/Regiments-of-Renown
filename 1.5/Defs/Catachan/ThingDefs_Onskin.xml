@@ -2,7 +2,7 @@
 <Defs>
             <!-- Catachan -->
 
-    <ThingDef ParentName="GW_AM_OnSkinBase">
+    <ThingDef ParentName="GW_HOI_OnSkinBase">
         <defName>GW_HOI_ROR_CatachanFatigues</defName>
         <label>Catachan fatigues</label>
 	<description>Lightweight and breathable fatigues, suitable for jungle warfare. Almost all Catachan Jungle Fighters cut away the sleeves, but rarely the trouser legs, as they protect against various leeches and other creatures that inhabit the jungle floor. \n\nThe Jungle Fighters feel right at home on the rimworld jungles - quite literally, as their home planet is a jungle-covered Death World. Many consider it to be quite relaxing, as the fauna and flora here are much less punishing than that of Catachan.</description>

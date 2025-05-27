@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="GW_AM_BackpackBase">
+	<ThingDef ParentName="GW_HOI_BackpackBase">
 		<defName>GW_HOI_ROR_Elysian_Jetpack</defName>
 		<label>Elysian jetpack</label>
         <description>A modified grav-chute specifically tailored for the Elysian Drop Troops of the Astra Militarum. Normally, grav-chutes are only meant to slow a user’s fall onto the battlefield, but this design has been improved to allow for a burst of ascension before descent, like a jump-pack. \n\nThe airborne insertions once favored by the Elysians are a very rare occurrence in modern times. This jetpack is something of a compromise - allowing the Elysians to jump straight into the fray and unleash hell upon the enemy, just as they did before.</description>
@@ -30,7 +30,7 @@
 		<costStuffCount Inherit="False"/>
 		<stuffCategories Inherit="False"/>
 		<costList>
-			<Steel>75</Steel>>			
+			<Steel>75</Steel>			
 			<ComponentIndustrial>5</ComponentIndustrial>
 			<HP_Ceramite>15</HP_Ceramite>
 			<Chemfuel>30</Chemfuel>

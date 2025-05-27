@@ -37,7 +37,7 @@
         </modExtensions>
     </ThingDef>
 
-    <ThingDef ParentName="GW_AM_LasgunBase">
+    <ThingDef ParentName="GW_HOI_LasgunBase">
         <defName>GW_HOI_ROR_Gun_Accatranfive</defName>
         <label>Accatran MKIV</label>
         <description>A bullpup lasgun often used by the Elysian Drop Troops of the Astra Militarum. Its compact and lightweight design makes it well-suited for airborne infantry, while providing decent firepower. \n\nLasguns from the forge world of Accatran are almost all bullpups. The planet also produces a variety of other Astra Militarum weaponry, such as laspistols, shotguns, and Sentinel walkers. Accatran designs are well-regarded due to their compactness and light weight - this even extends to their Sentinels, which can be dropped onto the battlefield on grav-chutes.</description>

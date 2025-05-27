@@ -2,7 +2,7 @@
 <Defs>	
 	<!-- ===== Catachan Fang =====-->
 	
-	<ThingDef ParentName="GW_AM_IndustrialSharpBase">
+	<ThingDef ParentName="GW_HOI_IndustrialSharpBase">
         <defName>GW_AM_MeleeWeapon_CatachanFang</defName>
         <label>Catachan fang</label>
         <description>A unique design of combat knife, created by the Catachan Jungle Fighters of the Astra Militarum. Its 20-inch blade makes it more akin to a machete than any regular knife, and gives it the weight necessary to cut through thick jungle undergrowth - or enemy flesh and bone. \n\nCatachan knives are traditionally forged by their owners, as an important rite-of-passage into adulthood.</description>

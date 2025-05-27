@@ -2,7 +2,7 @@
 <Defs>
 	<!-- Catachan Bandana -->
 
-	<ThingDef ParentName="GW_AM_Hat_CapBase">
+	<ThingDef ParentName="GW_HOI_Hat_CapBase">
 		<defName>GW_HOI_ROR_CatachanBandana</defName>
 		<label>catachan bandana</label>
 		<description>A red bandana, worn by some Catachan Jungle Fighters. In humid jungle, these help to keep the sweat out of one’s eyes. \n\nThe jungles of 2nd Millennium Terra pale in comparison to some of the green hells the galaxy can produce. However, the Catachan Jungle Fighters thrive in such an environment, where other Guard regiments would be torn to pieces before ever laying eyes upon the enemy.</description>
