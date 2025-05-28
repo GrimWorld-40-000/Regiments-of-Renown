@@ -18,6 +18,7 @@
         <statBases>
             <WorkToMake>50000</WorkToMake>
             <MaxHitPoints>400</MaxHitPoints>
+			<MarketValue>1600</MarketValue>
             <Mass>1.5</Mass>
             <ArmorRating_Sharp>0.96</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
