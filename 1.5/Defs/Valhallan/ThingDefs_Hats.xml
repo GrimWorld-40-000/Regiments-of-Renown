@@ -36,6 +36,42 @@
 	</ThingDef>
 
 	<ThingDef ParentName="GW_HOI_Hat_CapBase">
+		<defName>GW_AM_Valhallan_OfficerCap</defName>
+		<label>valhallan officer cap</label>
+		<description>A officer cap with a chin strap, worn by Valhallan Ice Warriors. No winter wind will disturb it from its place on the wearer’s head. \n\nThe greatest nemesis of the Valhallans are the Orks, for it was they who invaded the planet during a time of grave food shortages. The desperate struggle for food and shelter against the cold made the Ice Warriors into expert Ork-slayers.</description>
+		<graphicData>
+			<texPath>Things/Valhallan/Headgear/ValhallanOfficerCap_south</texPath>
+		</graphicData>
+		<costStuffCount>55</costStuffCount>		
+		<statBases>
+			<WorkToMake>10500</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<MarketValue>120</MarketValue>
+			<Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.1</SocialImpact>
+			<SlaveSuppressionOffset MayRequire="ludeon.rimworld.ideology">0.1</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_Valhallan</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<wornGraphicPath>Things/Valhallan/Headgear/ValhallanOfficerCap</wornGraphicPath>
+			<tags>
+				<li>40kValhallan</li>
+				<li>40kValhallanHats</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_HOI_Hat_CapBase">
 		<defName>GW_AM_Valhallan_Ushanka</defName>
 		<label>valhallan ushanka</label>
 		<description>A furred hat with earflaps, best worn in cold weather. Valhallan Ice Warriors typically eschew metal helmets, which chill easily and can stick painfully to skin. \n\nSome Valhallan Guardsmen have made tentative, but friendly contact with tribes and outlanders living in the colder regions. Although the Guardsmen are intimidating with their uniforms and (relatively) high-tech weaponry, the overall feeling is that the ice and snow makes an equal of them all.</description>
