@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Steel legion Gas Mask -->
+  
+	<ThingDef ParentName="GW_HOI_Hat_GasMaskBase">
+		<defName>GW_AM_SL_GasMask</defName>
+		<label>Steel Legion gas mask</label>
+		<description>A gas mask perfect for the Armageddon Steel Legion. Filters out exhaust fumes as well as toxic gas. \n\nVehicle specialists without vehicles are a sad thing indeed. Out of all of the regiments, morale is worst in the Steel Legion, who have found themselves shoved into an awkward light infantry role. Were it not for the General's orders, they would likely have dissolved entirely and dispersed into the other regiments.</description>
+		<techLevel>Industrial</techLevel>
+		<graphicData>
+			<texPath>Things/SteelLegion/Headgear/SteelLegionHeadgear_south</texPath>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<Steel>8</Steel>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_SteelLegion</researchPrerequisite>
+			<recipeUsers>
+				<li>GW_AM_MilitarumArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>2000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Things/SteelLegion/Headgear/SteelLegionHeadgear</wornGraphicPath>
+			<tags>
+				<li>40kSteelLegion</li>
+				<li>40kSteelLegionMask</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+</Defs>

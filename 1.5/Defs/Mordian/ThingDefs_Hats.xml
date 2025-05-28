@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Mordian Hat -->
+
+	<ThingDef ParentName="GW_HOI_Hat_CapBase">
+		<defName>GW_HOI_ROR_MordianHat</defName>
+		<label>mordian hat</label>
+		<description>The standard peaked cap of the Mordian Iron Guard. This particular one bears an Imperialis on the front. \n\nIf one word is to describe the Mordian Iron Guard, it is “disciplined”. Whether on the parade ground or the battlefield, they serve with perfect precision. Many enemies have made the error of believing them to be merely ceremonial troops - a fatal error indeed.</description>
+		<graphicData>
+			<texPath>Things/Mordian/Headgear/MordianHat_south</texPath>
+		</graphicData>
+		<costStuffCount>30</costStuffCount>
+		<statBases>
+			<WorkToMake>5500</WorkToMake>
+			<Mass>0.5</Mass>
+			<MaxHitPoints>150</MaxHitPoints>
+			<MarketValue>90</MarketValue>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_Mordian</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<wornGraphicPath>Things/Mordian/Headgear/MordianHat</wornGraphicPath>
+			<tags>
+				<li>40kMordian</li>
+				<li>40kMordianHat</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+</Defs>
