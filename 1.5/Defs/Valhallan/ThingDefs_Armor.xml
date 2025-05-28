@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+   
+            <!-- Valhallan Flak Armor  -->
+
+    <ThingDef ParentName="GW_HOI_ArmorBase">
+        <defName>GW_HOI_ROR_Valhallan_Armor</defName>
+        <label>Valhallan flak armor</label>
+        <description>Flak armor of the Valhallan Ice Warriors. It protects little against lasbolts, but provides very good insulation against cold environments and can stand up decently against explosions, autogun rounds, and pulse-charged munitions. \n\nThe Ice Warriors hail from Valhalla, a once-lush planet turned into an Ice World by the impact of a massive comet. The impact was so large that the planet itself was knocked out of orbit. As such, the Valhallans are well-suited to winter warfare.</description>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_Valhallan</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Valhallan/Middle/armor_Male_south</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>40500</WorkToMake>
+            <MaxHitPoints>310</MaxHitPoints>
+			<MarketValue>1000</MarketValue>
+            <Mass>5.2</Mass>
+            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.33</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>9</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <!-- <MoveSpeed>-0.1</MoveSpeed> -->
+        </equippedStatOffsets>
+        <costList>
+            <Steel>100</Steel>
+			<Cloth>40</Cloth>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<HP_Ceramite>10</HP_Ceramite>
+        </costList>	
+        <apparel>
+            <wornGraphicPath>Things/Valhallan/Middle/armor</wornGraphicPath>
+            <tags>
+                <li>40kValhallanGuard</li>
+                <li>40kValhallanArmor</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>

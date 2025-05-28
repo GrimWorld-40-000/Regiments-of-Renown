@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+            <!-- Tallarn Desert Raiders -->
+    <ThingDef ParentName="GW_HOI_OnSkinBase">
+	<defName>GW_HOI_ROR_TDR_DesertFatigues</defName>
+		<label>Desert fatigues</label>
+	    	<description>Astra Militarum fatigues built for desert warfare, usually worn by the Tallarn Desert Raiders. The khaki colors blend into the desert better than the standard green, and they are made to be breathable to reduce sweating. \n\nTallarn was once a lush agri-world, but during the Horus Heresy, the traitorous Iron Warriors virus-bombed the entire planet into a featureless desert. However, the survivors emerged from underground bunkers and valiantly fought the Iron Warriors until reinforcements arrived to remove them from the planet. \n\nA few decades later, the Tallarn Desert Raiders regiment was formed, and have specialized in desert warfare ever since.</description>
+		<graphicData>
+			<texPath>Things/Tallarn/OnSkin/DesertFatigues_Male_south</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_TallarnDesertRaiders</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>85</costStuffCount>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>8000</WorkToMake>
+			<MarketValue>150</MarketValue>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.9</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Things/Tallarn/OnSkin/DesertFatigues</wornGraphicPath>
+			<tags>
+				<li>40kTallarnDesertRaiders</li>
+                <li>40kTallarnDesertRaidersFatigues</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+</Defs>

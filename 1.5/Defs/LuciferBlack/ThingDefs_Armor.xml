@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Lucifer Black -->
+	
+	 <ThingDef ParentName="GW_HOI_ArmorBase">
+        <defName>GW_HOI_ROR_LuciferBlack_Armor</defName>
+        <label>Lucifer black armor</label>
+        <description>A suit of Flak Armor of the Lucifer Blacks, painted in intimidating, dark colors. \n\nAfter the Horus Heresy, the Lucifer Blacks have endured something of a mixed reputation over the millennia. Their numbers have suffered such indignities as being essentially rented out as mercenaries during the War of the Beast and even being dissolved entirely during The Beheading by the corrupt Grand Master of Assassins.</description>
+        <recipeMaker>
+            <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>12</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/LuciferBlack/Armor/Lucifer_Male_south</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>9000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>5</Mass>
+            <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <Insulation_Cold>18</Insulation_Cold>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.1</MoveSpeed>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>350</Steel>
+            <ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>90</Plasteel>
+        </costList>
+        <apparel>
+            <wornGraphicPath>Things/LuciferBlack/Armor/Lucifer</wornGraphicPath>
+            <tags>
+                <li>40kLucifer</li>
+                <li>40kLuciferArmor</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>
