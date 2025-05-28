@@ -11,21 +11,26 @@
             <texPath>Things/LuciferBlack/Helmet/Lucifer_Skull_south</texPath>
         </graphicData>
         <costList>
+            <Steel>130</Steel>
+			<Plasteel>65</Plasteel>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Cloth>10</Cloth>
-            <Steel>70</Steel>
+			<HP_Ceramite>15</HP_Ceramite>
+            <!-- <Cloth>10</Cloth> -->
         </costList>
         <statBases>
-            <WorkToMake>2500</WorkToMake>
+            <WorkToMake>55000</WorkToMake>
+			<MaxHitPoints>450</MaxHitPoints>
+			<MarketValue>1500</MarketValue>
             <Mass>1.2</Mass>
-            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.60</ArmorRating_Heat>
-			<Insulation_Cold>4</Insulation_Cold>
+            <ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.52</ArmorRating_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
 		<equippedStatOffsets>
-			<ToxicResistance>1</ToxicResistance>
+			<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
 		</equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
@@ -51,21 +56,26 @@
             <texPath>Things/LuciferBlack/Helmet/Lucifer_AltHelmet_south</texPath>
         </graphicData>
         <costList>
+            <Steel>130</Steel>
+			<Plasteel>65</Plasteel>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Cloth>10</Cloth>
-            <Steel>70</Steel>
+			<HP_Ceramite>15</HP_Ceramite>
+            <!-- <Cloth>10</Cloth> -->
         </costList>
         <statBases>
-            <WorkToMake>2500</WorkToMake>
+            <WorkToMake>55000</WorkToMake>
+			<MaxHitPoints>450</MaxHitPoints>
+			<MarketValue>1500</MarketValue>
             <Mass>1.2</Mass>
-            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.60</ArmorRating_Heat>
-			<Insulation_Cold>4</Insulation_Cold>
+            <ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.52</ArmorRating_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
 		<equippedStatOffsets>
-			<ToxicResistance>1</ToxicResistance>
+			<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
 		</equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
@@ -91,21 +101,26 @@
             <texPath>Things/LuciferBlack/Helmet/Lucifer_SkullMask_south</texPath>
         </graphicData>
         <costList>
+            <Steel>130</Steel>
+			<Plasteel>65</Plasteel>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <Cloth>10</Cloth>
-            <Steel>70</Steel>
+			<HP_Ceramite>15</HP_Ceramite>
+            <!-- <Cloth>10</Cloth> -->
         </costList>
         <statBases>
-            <WorkToMake>2500</WorkToMake>
+            <WorkToMake>55000</WorkToMake>
+			<MaxHitPoints>450</MaxHitPoints>
+			<MarketValue>1500</MarketValue>
             <Mass>1.2</Mass>
-            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.60</ArmorRating_Heat>
-			<Insulation_Cold>3</Insulation_Cold>
+            <ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.52</ArmorRating_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
             <EquipDelay>1.2</EquipDelay>
         </statBases>
 		<equippedStatOffsets>
-			<ToxicResistance>1</ToxicResistance>
+			<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
 		</equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
