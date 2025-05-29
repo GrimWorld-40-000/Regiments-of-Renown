@@ -10,15 +10,19 @@
 			<texPath>Things/Catachan/CatachanBandana/CatachanBandana_south</texPath>
 		</graphicData>
 		<uiIconScale>1.0</uiIconScale>
-		<costStuffCount>10</costStuffCount>
+		<costStuffCount>50</costStuffCount>
 		<statBases>
-			<WorkToMake>1000</WorkToMake>
-			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
-		</statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>7000</WorkToMake>
+			<MarketValue>100</MarketValue>
+            <Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.1</MoveSpeed>
+			<PainShockThreshold>0.1</PainShockThreshold>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_Catachan</researchPrerequisite>
@@ -44,15 +48,19 @@
 			<drawSize>(1.0,1.0)</drawSize>
 		</graphicData>
 		<uiIconScale>1.0</uiIconScale>
-		<costStuffCount>10</costStuffCount>
+		<costStuffCount>50</costStuffCount>
 		<statBases>
-			<WorkToMake>1000</WorkToMake>
-			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
-		</statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>7000</WorkToMake>
+			<MarketValue>100</MarketValue>
+            <Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.1</MoveSpeed>
+			<PainShockThreshold>0.1</PainShockThreshold>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_Catachan</researchPrerequisite>

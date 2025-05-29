@@ -12,13 +12,16 @@
         <graphicData>
             <texPath>Things/Catachan/CatachanSkin/CatachanSkin_Male_south</texPath>
         </graphicData>
-        <costStuffCount>70</costStuffCount>
+        <costStuffCount>90</costStuffCount>
         <statBases>
-            <MaxHitPoints>180</MaxHitPoints>
-            <WorkToMake>6000</WorkToMake>
-            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>1.50</StuffEffectMultiplierInsulation_Heat>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>8000</WorkToMake>
+			<MarketValue>140</MarketValue>
+            <Mass>1.5</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
             <MoveSpeed>0.1</MoveSpeed>
