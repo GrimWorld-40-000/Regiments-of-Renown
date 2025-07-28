@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Lucifer Black -->
+	
+	 <ThingDef ParentName="GW_HOI_ArmorBase">
+        <defName>GW_HOI_ROR_LuciferBlack_Armor</defName>
+        <label>Lucifer black armor</label>
+        <description>A suit of Flak Armor of the Lucifer Blacks, painted in intimidating, dark colors. \n\nAfter the Horus Heresy, the Lucifer Blacks have endured something of a mixed reputation over the millennia. Their numbers have suffered such indignities as being essentially rented out as mercenaries during the War of the Beast and even being dissolved entirely during The Beheading by the corrupt Grand Master of Assassins.</description>
+        <recipeMaker>
+            <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>12</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <graphicData>
+            <texPath>LuciferBlack/Apparel/Armor/Lucifer_Male_south</texPath>
+        </graphicData>
+        <statBases>
+            <WorkToMake>75000</WorkToMake>
+            <MaxHitPoints>600</MaxHitPoints>
+			<MarketValue>1800</MarketValue>
+            <Mass>9</Mass>
+            <ArmorRating_Sharp>1.03</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.1</MoveSpeed>
+			<PainShockThreshold>0.15</PainShockThreshold>
+        </equippedStatOffsets>
+        <costList>
+            <Steel>160</Steel>
+            <Plasteel>90</Plasteel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+            <HP_Ceramite>40</HP_Ceramite>
+        </costList>
+        <apparel>
+            <wornGraphicPath>LuciferBlack/Apparel/Armor/Lucifer</wornGraphicPath>
+            <tags>
+                <li>40kLucifer</li>
+                <li>40kLuciferArmor</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>

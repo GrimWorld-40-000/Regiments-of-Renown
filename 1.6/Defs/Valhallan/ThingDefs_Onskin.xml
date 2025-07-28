@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+            <!-- Valhallan Greatcoat -->
+
+    <ThingDef ParentName="GW_HOI_OnSkinBase">
+        <defName>GW_HOI_ROR_Valhallan_GreatCoat</defName>
+        <label>Valhallan greatcoat</label>
+	<description>A heavy greatcoat, worn by Imperial Guardsmen of Valhalla. The insulation it provides against the cold is truly remarkable, and allows the user to operate effectively even in the harshest winters. \n\nAs cold-environment specialists, the Valhallans are typically deployed to ice sheets and tundras of the rimworld. Compared to their home planet, the coldest regions of the rimworld are positively toasty.</description>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_Valhallan</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Valhallan/Apparel/OnSkin/greatcoat_Male_south</texPath>
+        </graphicData>
+        <costStuffCount>90</costStuffCount>
+        <statBases>
+            <WorkToMake>10000</WorkToMake>
+            <MaxHitPoints>180</MaxHitPoints>
+			<MarketValue>160</MarketValue>
+			<Mass>1.5</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1.8</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Valhallan/Apparel/OnSkin/greatcoat</wornGraphicPath>
+            <tags>
+                <li>40kValhallanGuard</li>
+                <li>40kValhallanGreatcoat</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_HOI_OnSkinBase">
+        <defName>GW_HOI_ROR_Valhallan_OfficerGreatCoat</defName>
+        <label>valhallan officer greatcoat</label>
+	<description>A Valhallan greatcoat with a lining of fur on the collar, to symbolize the wearer’s status as an officer. This actually lets a little water in which makes the coat less insulating, but that is little issue to a true Valhallan. \n\nA force of Ice Warriors was once accidentally dispatched to the deep jungle of the rimworld, causing a large number of them to develop serious heatstroke even when they stripped to their bare skin. The officer responsible was demoted to the enlisted ranks… and assigned to the squad that suffered from his mistake.</description>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_Valhallan</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Valhallan/Apparel/OnSkin/officergreatcoat_Male_south</texPath>
+        </graphicData>
+        <costStuffCount>100</costStuffCount>
+        <equippedStatOffsets>
+            <SocialImpact>0.05</SocialImpact>
+        </equippedStatOffsets>	
+        <statBases>
+            <MaxHitPoints>195</MaxHitPoints>
+            <WorkToMake>15000</WorkToMake>
+            <MarketValue>200</MarketValue>
+            <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1.10</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Valhallan/Apparel/OnSkin/officergreatcoat</wornGraphicPath>
+            <tags>
+                <li>40kValhallanGuard</li>
+                <li>40kValhallanGreatcoat</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Vostroyan Firstborn Uniform -->
+
+    <ThingDef ParentName="GW_HOI_OnSkinBase">
+        <defName>GW_HOI_ROR_VostoyanFirstborn_Uniform</defName>
+       <label>vostroyan firstborn uniform</label>
+	<description>An ornate uniform of the Vostroyan Firstborn. Like their weapons, Vostroyan uniforms are generally passed down from father to son - in essence, Vostroyan Guardsmen are almost entirely equipped with regimental relics. \n\nMuch trouble has been had with recruitment, as taking in outside blood is particularly anathema to the Firstborn.</description>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_VostoyanFirstborn</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>VostoyanFirstborn/Apparel/OnSkin/VostoyanFirstborn_Male_south</texPath>
+        </graphicData>
+		<costList>
+			<Steel>80</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<HP_Ceramite>15</HP_Ceramite>
+        </costList>	        
+        <statBases>
+            <WorkToMake>3500</WorkToMake>
+            <MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>600</MarketValue>
+            <Mass>6</Mass>
+            <ArmorRating_Sharp>0.82</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.46</ArmorRating_Heat>
+            <Insulation_Cold>25.0</Insulation_Cold>
+			<Insulation_Heat>5.0</Insulation_Heat>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>VostoyanFirstborn/Apparel/OnSkin/VostoyanFirstborn</wornGraphicPath>
+            <tags>
+                <li>40kVostoyanFirstborn</li>
+                <li>40kVostoyanFirstbornUniform</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>

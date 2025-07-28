@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+            <!-- Mordian Uniform -->
+
+    <ThingDef ParentName="GW_HOI_OnSkinBase">
+        <defName>GW_HOI_ROR_Mordian_Uniform</defName>
+        <label>Mordian uniform</label>
+	<description>A dress uniform of the Mordian Iron Guard, with a golden eagle on the left breast (unfortunately, the Mordianites have been forced to get rid of their golden epaulets by their current circumstances). Unlike most regiments of the Astra Militarum, these uniforms are meant to be worn in battle as well. \n\nThe loss of the epaulets has been a significant blow to the morale of the Iron Guard. To an outsider, it would be a surprise for an aesthetic sacrifice to have such an effect on professional soldiers. However, to the Mordianites, the loss of a critical part of their uniform is a stain upon them - their regimental culture places great emphasis on the dignity of soldier and uniform alike.</description>
+        <recipeMaker>
+            <researchPrerequisite>GW_AM_Mordian</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Mordian/Apparel/OnSkin/Mordian_Male_south</texPath>
+        </graphicData>
+        <costStuffCount>90</costStuffCount>
+        <statBases>
+            <MaxHitPoints>220</MaxHitPoints>
+            <WorkToMake>8500</WorkToMake>
+			<Mass>1.5</Mass>
+			<MarketValue>150</MarketValue>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+        </statBases>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Mordian/Apparel/OnSkin/Mordian</wornGraphicPath>
+            <tags>
+                <li>40kMordian</li>
+                <li>40kMordianUniform</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+</Defs>

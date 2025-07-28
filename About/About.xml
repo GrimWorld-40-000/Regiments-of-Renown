@@ -5,7 +5,7 @@
   <packageId>Grimworld.RegimentsOfRenown</packageId>
   <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/RegimentsOfRenownModIcon</modIconPath>
   <supportedVersions>
-    <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
 
   <modDependencies>

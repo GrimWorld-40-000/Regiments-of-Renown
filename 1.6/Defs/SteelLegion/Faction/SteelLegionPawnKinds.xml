@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+        <!--Steel Legion-->
+    <PawnKindDef ParentName="GW_HOI_RangedTier1">
+        <defName>GW_AM_SteelLegion_RangedTier1</defName>
+        <label>steel legion conscript</label>
+        <apparelTags Inherit="False">
+            <li>40kSteelLegion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_SL_GasMask</li>
+            <li>GW_HOI_ROR_SteelLeg_Uniform</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier1">
+        <defName>GW_AM_SteelLegion_MeleeTier1</defName>
+        <label>steel legion conscript</label>
+        <apparelTags Inherit="False">
+            <li>40kSteelLegion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_SL_GasMask</li>
+            <li>GW_HOI_ROR_SteelLeg_Uniform</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_RangedTier2">
+        <defName>GW_AM_SteelLegion_RangedTier2</defName>
+        <label>steel legion trooper</label>
+        <apparelTags Inherit="False">
+            <li>40kSteelLegion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_SL_GasMask</li>
+            <li>GW_HOI_ROR_SteelLeg_Uniform</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier2">
+        <defName>GW_AM_SteelLegion_MeleeTier2</defName>
+        <label>steel legion trooper</label>
+        <apparelTags Inherit="False">
+            <li>40kSteelLegion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_SL_GasMask</li>
+            <li>GW_HOI_ROR_SteelLeg_Uniform</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_RangedTier3">
+        <defName>GW_AM_SteelLegion_RangedTier3</defName>
+        <label>steel legion sergeant</label>
+        <apparelTags Inherit="False">
+            <li>40kSteelLegion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_SL_GasMask</li>
+            <li>GW_HOI_ROR_SteelLeg_Uniform</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_HOI_MeleeTier3">
+        <defName>GW_AM_SteelLegion_MeleeTier3</defName>
+        <label>steel legion sergeant</label>
+        <apparelTags Inherit="False">
+            <li>40kSteelLegion</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_AM_SL_GasMask</li>
+            <li>GW_HOI_ROR_SteelLeg_Uniform</li>
+        </apparelRequired>
+    </PawnKindDef>
+</Defs>

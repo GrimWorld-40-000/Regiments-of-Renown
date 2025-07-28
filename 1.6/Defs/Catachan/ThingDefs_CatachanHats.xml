@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Catachan Bandana -->
+
+	<ThingDef ParentName="GW_HOI_Hat_CapBase">
+		<defName>GW_HOI_ROR_CatachanBandana</defName>
+		<label>catachan bandana</label>
+		<description>A red bandana, worn by some Catachan Jungle Fighters. In humid jungle, these help to keep the sweat out of one’s eyes. \n\nThe jungles of 2nd Millennium Terra pale in comparison to some of the green hells the galaxy can produce. However, the Catachan Jungle Fighters thrive in such an environment, where other Guard regiments would be torn to pieces before ever laying eyes upon the enemy.</description>
+		<graphicData>
+			<texPath>Catachan/Apparel/CatachanBandana/CatachanBandana_south</texPath>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>7000</WorkToMake>
+			<MarketValue>100</MarketValue>
+            <Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_Catachan</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<wornGraphicPath>Things/Catachan/CatachanBandana/CatachanBandana</wornGraphicPath>
+			<tags>
+				<li>40kCatachan</li>
+				<li>40kCatachanBandana</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_HOI_Hat_CapBase">
+		<defName>GW_HOI_ROR_CatachanBandanaFull</defName>
+		<label>catachan bandana (full wrap)</label>
+		<description>A red bandana, worn by some Catachan Jungle Fighters. In humid jungle, these help to keep the sweat out of one’s eyes. \n\nThe jungles of 2nd Millennium Terra pale in comparison to some of the green hells the galaxy can produce. However, the Catachan Jungle Fighters thrive in such an environment, where other Guard regiments would be torn to pieces before ever laying eyes upon the enemy.</description>
+		<graphicData>
+			<texPath>Catachan/Apparel/CatachanBandana/CatachanBandanaFullWrap</texPath>
+			<drawSize>(1.0,1.0)</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>7000</WorkToMake>
+			<MarketValue>100</MarketValue>
+            <Mass>0.1</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_Catachan</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<wornGraphicPath>Things/Catachan/CatachanBandana/CatachanBandanaFullWrap</wornGraphicPath>
+			<tags>
+				<li>40kCatachan</li>
+				<li>40kCatachanBandana</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Tempestus Scion Beret -->
+
+	<ThingDef ParentName="GW_HOI_Hat_CapBase">
+		<defName>GW_HOI_ROR_TempestusScion_Beret</defName>
+		<label>Tempestus Scion beret</label>
+		<description>A red beret with a golden eagle insignia, a symbol of the Tempestus Scions. \n\nThe Scions are generally kept in orbit, running their own combat exercises to stay on their toes. They are at the disposal of the General commanding the Imperial Guard remnant, with a single squad of them being sufficient to wipe out a tribal village or an outlander town that significantly displeases them. \n\nFor the ultratech-level Shattered Empire, however, greater forces should be employed - or the General could ask the Adeptus Astartes for a favor.</description>
+		<graphicData>
+			<texPath>TempestusScions/Apparel/Headgear/TempestusScionBeret_south</texPath>
+		</graphicData>
+		<costStuffCount>60</costStuffCount>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>2500</WorkToMake>
+			<MarketValue>150</MarketValue>
+			<Mass>0.2</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.15</SocialImpact>
+			<SlaveSuppressionOffset MayRequire="ludeon.rimworld.ideology">0.1</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_TempestusScions</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<apparel>
+			<wornGraphicPath>TempestusScions/Apparel/Headgear/TempestusScionBeret</wornGraphicPath>
+			<tags>
+				<li>40kTempestusScion</li>
+				<li>40kTempestusOfficerHats</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<!-- Tempestus Scion Omni Mask -->
+  
+	<ThingDef ParentName="GW_HOI_Hat_GasMaskBase">
+		<defName>GW_HOI_ROR_TempestusScion_Mask</defName>
+		<label>Scion Omni mask</label>
+		<description>A high-quality gas mask with ominously-glowing green lenses, worn only by the Tempestus Scions. It protects the user against the most dangerous of enemy chemical and biological attacks, allowing the Scion inside to operate at peak performance. \n\nThe Scions recruit from the Schola Progenia - special training academies for the orphans of dead Imperial officials. This continues even in the stranded fleet, with a Schola Progenium being run on board a voidship, but the Storm Troopers have also been recruiting the very best of the Imperial Guard as well.</description>
+		<graphicData>
+			<texPath>TempestusScions/Apparel/Headgear/OmniMask_south</texPath>
+		</graphicData>
+		<stuffCategories Inherit="False" /> 
+		<costStuffCount Inherit="False" />
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<MarketValue>300</MarketValue>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.12</ArmorRating_Heat>
+            <Insulation_Cold>1.0</Insulation_Cold>
+			<Insulation_Heat>1.0</Insulation_Heat>
+		</statBases>
+		<costList>
+			<Steel>60</Steel>
+			<Plasteel>20</Plasteel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<HP_Ceramite>5</HP_Ceramite>
+        </costList>	
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<researchPrerequisite>GW_AM_TempestusScions</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<wornGraphicPath>TempestusScions/Apparel/Headgear/OmniMask</wornGraphicPath>
+			<tags>
+				<li>40kTempestusScion</li>
+				<li>40kTempestusScionMask</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+</Defs>
