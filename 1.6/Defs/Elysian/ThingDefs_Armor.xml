@@ -36,7 +36,7 @@
 			<HP_Ceramite>15</HP_Ceramite>
         </costList>
         <apparel>
-            <wornGraphicPath>Elysian/Things/Armor/ElysianArmor</wornGraphicPath>
+            <wornGraphicPath>Elysian/Apparel/Armor/ElysianArmor</wornGraphicPath>
             <tags>
                 <li>40kElysian</li>
                 <li>40kElysianArmor</li>

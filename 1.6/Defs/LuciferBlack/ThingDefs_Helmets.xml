@@ -36,7 +36,7 @@
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
         </recipeMaker>
         <apparel>
-            <wornGraphicPath>Things/LuciferBlack/Helmet/Lucifer_Skull</wornGraphicPath>
+            <wornGraphicPath>LuciferBlack/Apparel/Helmet/Lucifer_Skull</wornGraphicPath>
             <tags>
                 <li>40kLucifer</li>
                 <li>40kLuciferHelmet</li>
@@ -81,7 +81,7 @@
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
         </recipeMaker>
         <apparel>
-            <wornGraphicPath>Things/LuciferBlack/Helmet/Lucifer_AltHelmet</wornGraphicPath>
+            <wornGraphicPath>LuciferBlack/Apparel/Helmet/Lucifer_AltHelmet</wornGraphicPath>
             <tags>
                 <li>40kLucifer</li>
                 <li>40kLuciferHelmet</li>

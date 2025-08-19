@@ -27,7 +27,7 @@
             <MoveSpeed>0.1</MoveSpeed>
         </equippedStatOffsets>
         <apparel>
-            <wornGraphicPath>Things/Catachan/CatachanSkin/CatachanSkin</wornGraphicPath>
+            <wornGraphicPath>Catachan/Apparel/CatachanSkin/CatachanSkin</wornGraphicPath>
             <tags>
                 <li>40kCatachan</li>
                 <li>40kCatachanFatigues</li>

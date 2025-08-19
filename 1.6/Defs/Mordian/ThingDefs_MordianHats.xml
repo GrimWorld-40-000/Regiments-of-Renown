@@ -29,7 +29,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<apparel>
-			<wornGraphicPath>Things/Mordian/Headgear/MordianHat</wornGraphicPath>
+			<wornGraphicPath>Mordian/Apparel/Headgear/MordianHat</wornGraphicPath>
 			<tags>
 				<li>40kMordian</li>
 				<li>40kMordianHat</li>
