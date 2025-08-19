@@ -40,7 +40,7 @@
 			<HP_Ceramite>20</HP_Ceramite>
         </costList>		
         <apparel>
-            <wornGraphicPath>Things/Catachan/CatachanMid/CatachanMiddle</wornGraphicPath>
+            <wornGraphicPath>Catachan/Apparel/CatachanMid/CatachanMiddle</wornGraphicPath>
             <tags>
                 <li>40kCatachan</li>
                 <li>40kCatachanArmor</li>
