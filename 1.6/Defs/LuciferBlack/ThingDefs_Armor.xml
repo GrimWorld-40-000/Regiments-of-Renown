@@ -30,6 +30,7 @@
         <equippedStatOffsets>
             <MoveSpeed>-0.1</MoveSpeed>
 			<PainShockThreshold>0.15</PainShockThreshold>
+			<VacuumResistance MayRequire="ludeon.rimworld.odyssey">0.3</VacuumResistance>
         </equippedStatOffsets>
         <costList>
             <Steel>160</Steel>
