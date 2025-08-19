@@ -6,7 +6,7 @@
         <description>A modified grav-chute specifically tailored for the Elysian Drop Troops of the Astra Militarum. Normally, grav-chutes are only meant to slow a user’s fall onto the battlefield, but this design has been improved to allow for a burst of ascension before descent, like a jump-pack. \n\nThe airborne insertions once favored by the Elysians are a very rare occurrence in modern times. This jetpack is something of a compromise - allowing the Elysians to jump straight into the fray and unleash hell upon the enemy, just as they did before.</description>
 		<graphicData>
 			<texPath>Elysian/Apparel/Backpack/Elysium_Jetpack_Display</texPath>
-			<drawSize>(2,2)</drawSize>	
+			<drawSize>(1,1)</drawSize>	
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_ElysianDropTroopers</researchPrerequisite>

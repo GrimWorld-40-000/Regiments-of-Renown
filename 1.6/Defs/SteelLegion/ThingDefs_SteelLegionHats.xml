@@ -29,6 +29,12 @@
 		</statBases>
 		<apparel>
 			<wornGraphicPath>SteelLegion/Apparel/Headgear/SteelLegionHeadgear</wornGraphicPath>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
 			<tags>
 				<li>40kSteelLegion</li>
 				<li>40kSteelLegionMask</li>
