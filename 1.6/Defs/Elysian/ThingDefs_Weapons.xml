@@ -114,8 +114,8 @@
 
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>GW_HOI_ROR_Gun_PlasmaGun</defName>
-        <label>Accatran MK II Plasma Gun</label>
-        <description>Elysian. WIP.</description>
+        <label>Accatran MK II plasma gun</label>
+        <description>Accatran MK II plasma gun is a high-energy weapon that fires superheated plasma bolts, capable of melting through armor and fortified positions with precision and devastating effect.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <texPath>Elysian/Weapons/AccatranPlasmaGun</texPath>
