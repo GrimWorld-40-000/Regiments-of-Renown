@@ -44,7 +44,7 @@
             </li>
         </verbs>
 		<recipeMaker>
-            <researchPrerequisite>GW_AM_MilitariumArmor</researchPrerequisite>
+            <researchPrerequisite>GW_AM_SteelLegion</researchPrerequisite>
 		</recipeMaker>
         <tools>
             <li>
