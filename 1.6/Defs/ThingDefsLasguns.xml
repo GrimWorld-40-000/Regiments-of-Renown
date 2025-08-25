@@ -38,7 +38,7 @@
                 <range>36.0</range>
                 <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>Shot_SniperRifle</soundCast>
+                <soundCast>GW_AM_Gun_Kantrael</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>
