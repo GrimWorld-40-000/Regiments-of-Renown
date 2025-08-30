@@ -17,7 +17,10 @@
 		<equippedStatOffsets>
             <MoveSpeed>0.15</MoveSpeed>
 		</equippedStatOffsets>
-        <costStuffCount>60</costStuffCount>
+		<costList>
+            <Plasteel>55</Plasteel>
+        </costList>
+        <!-- <costStuffCount>60</costStuffCount> -->
         <tools>
             <li>
                 <label>handle</label>

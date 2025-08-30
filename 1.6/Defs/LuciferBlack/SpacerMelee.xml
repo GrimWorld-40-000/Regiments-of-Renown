@@ -13,9 +13,9 @@
 			<WorkToMake>3400</WorkToMake>
 			<Mass>1.0</Mass>
 		</statBases>
-		<costStuffCount>55</costStuffCount>
+		<!-- <costStuffCount>55</costStuffCount> -->
         <costList>
-            <Plasteel>12</Plasteel>
+            <Plasteel>55</Plasteel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
@@ -90,9 +90,9 @@
 		<equippedStatOffsets>
 			<MoveSpeed>0.20</MoveSpeed>
 		</equippedStatOffsets>
-        <costStuffCount>55</costStuffCount>
+        <!-- <costStuffCount>55</costStuffCount> -->
         <costList>
-            <Plasteel>12</Plasteel>
+            <Plasteel>55</Plasteel>
         </costList>
         <recipeMaker>
         <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
