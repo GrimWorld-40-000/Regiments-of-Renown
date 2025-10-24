@@ -12,7 +12,7 @@
 			<researchPrerequisite>GW_AM_ElysianDropTroopers</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>70000</WorkToMake>
+			<WorkToMake>10000</WorkToMake>
 			<MaxHitPoints>275</MaxHitPoints>
 			<MarketValue>600</MarketValue>
 			<Mass>2.5</Mass>
@@ -60,9 +60,9 @@
 		</verbs>
 		<comps>
 			<li Class="CompProperties_ApparelReloadable">
-				<maxCharges>2</maxCharges>
+				<maxCharges>5</maxCharges>
 				<ammoDef>Chemfuel</ammoDef>
-				<ammoCountPerCharge>20</ammoCountPerCharge>
+				<ammoCountPerCharge>10</ammoCountPerCharge>
 				<baseReloadTicks>60</baseReloadTicks>
 				<soundReload>Standard_Reload</soundReload>
 				<hotKey>Misc4</hotKey>

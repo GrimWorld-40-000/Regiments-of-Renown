@@ -6,8 +6,8 @@
         <label>Laser</label>
         <description>a laser</description>
         <projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>11</damageAmountBase>
+            <damageDef>Beam</damageDef>
+            <damageAmountBase>14</damageAmountBase>
             <armorPenetrationBase>0.17</armorPenetrationBase>
             <stoppingPower>0.3</stoppingPower>
             <speed>1000</speed>
@@ -23,12 +23,12 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <Mass>3.1</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
-            <AccuracyShort>0.72</AccuracyShort>
+            <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>0.60</AccuracyMedium>
-            <AccuracyLong>0.50</AccuracyLong>
+            <AccuracyLong>0.45</AccuracyLong>
             <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
             <MarketValue>500</MarketValue>
         </statBases>
@@ -101,7 +101,7 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>55000</WorkToMake>
+            <WorkToMake>24000</WorkToMake>
             <Mass>6.3</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -193,7 +193,7 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
-            <WorkToMake>65000</WorkToMake>
+            <WorkToMake>35000</WorkToMake>
             <Mass>7.1</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>

@@ -18,19 +18,19 @@
             <drawSize>1.5</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>15000</WorkToMake>
+            <WorkToMake>9500</WorkToMake>
             <MaxHitPoints>800</MaxHitPoints>
 			<MarketValue>700</MarketValue>
             <Mass>4</Mass>
-            <ArmorRating_Sharp>0.79</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.41</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.48</ArmorRating_Heat>
+            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
 			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>9</Insulation_Heat>
+			<Insulation_Heat>25</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <MoveSpeed>0.2</MoveSpeed>
+            <MoveSpeed>0.5</MoveSpeed>
 			<MeleeHitChance>1</MeleeHitChance>
 			<PainShockThreshold>0.1</PainShockThreshold>
         </equippedStatOffsets>

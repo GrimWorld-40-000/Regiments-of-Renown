@@ -20,7 +20,7 @@
             <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
-			<SocialImpact>0.15</SocialImpact>
+			<SocialImpact>0.30</SocialImpact>
 			<SlaveSuppressionOffset MayRequire="ludeon.rimworld.ideology">0.1</SlaveSuppressionOffset>
 		</equippedStatOffsets>
 		<recipeMaker>
@@ -66,8 +66,8 @@
 			<HP_Ceramite>5</HP_Ceramite>
         </costList>	
 		<equippedStatOffsets>
-			<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
-			<ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
+			<GasProtection>1</GasProtection>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_TempestusScions</researchPrerequisite>

@@ -13,6 +13,10 @@
             <texPath>SteelLegion/Apparel/SkinOutfit/SteelLegion_Male_south</texPath>
         </graphicData>
         <costStuffCount>90</costStuffCount>
+         <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
         <statBases>
             <MaxHitPoints>180</MaxHitPoints>
             <WorkToMake>6000</WorkToMake>

@@ -16,10 +16,10 @@
             <texPath>Elysian/Apparel/Armor/ElysianArmor_Display</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>52000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <MaxHitPoints>440</MaxHitPoints>
             <Mass>3.5</Mass>
-            <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+            <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
             <ArmorRating_Heat>0.5</ArmorRating_Heat>
             <Insulation_Cold>32</Insulation_Cold>
@@ -27,11 +27,12 @@
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <MoveSpeed>0.1</MoveSpeed>
+            <MoveSpeed>0.5</MoveSpeed>
 			<PainShockThreshold>0.05</PainShockThreshold>
+            <CarryingCapacity>15</CarryingCapacity>
         </equippedStatOffsets>
         <costList>
-            <Steel>75</Steel>
+            <Plasteel>75</Plasteel>
             <ComponentIndustrial>3</ComponentIndustrial>
 			<HP_Ceramite>15</HP_Ceramite>
         </costList>

@@ -10,12 +10,14 @@
 			<drawSize>1.00</drawSize>
 		</graphicData>
 		<statBases>
-			<WorkToMake>3400</WorkToMake>
+			<WorkToMake>18000</WorkToMake>
 			<Mass>1.0</Mass>
 		</statBases>
 		<!-- <costStuffCount>55</costStuffCount> -->
         <costList>
-            <Plasteel>55</Plasteel>
+            <Plasteel>70</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+			<HP_Adamantium>20</HP_Adamantium> 
         </costList>
         <recipeMaker>
             <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
@@ -36,16 +38,16 @@
                 </capacities>
                 <power>50</power>
                 <cooldownTime>1.5</cooldownTime>
-				<armorPenetration>1.5</armorPenetration>
+				<armorPenetration>2</armorPenetration>
             </li>
 			<li>
 				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>10</power>
-				<cooldownTime>2.5</cooldownTime>
-				<armorPenetration>0.5</armorPenetration>
+				<power>60</power>
+				<cooldownTime>3</cooldownTime>
+				<armorPenetration>2</armorPenetration>
 			</li>
         </tools>
 		<comps />
@@ -83,7 +85,7 @@
             <texPath>LuciferBlack/Weapons/PowerSaber</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>6400</WorkToMake>
+            <WorkToMake>18000</WorkToMake>
             <Mass>1.0</Mass>
         </statBases>
 		<equippedAngleOffset>-75</equippedAngleOffset>
@@ -92,7 +94,9 @@
 		</equippedStatOffsets>
         <!-- <costStuffCount>55</costStuffCount> -->
         <costList>
-            <Plasteel>55</Plasteel>
+            <Plasteel>70</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+			<HP_Adamantium>20</HP_Adamantium>
         </costList>
         <recipeMaker>
         <researchPrerequisite>GW_LuciferBlack</researchPrerequisite>
@@ -108,21 +112,21 @@
             </li>
             <li>
                 <label>edge</label>
-                <capacities>
+                <capacities>0
                     <li>Cut</li>
                 </capacities>
-                <power>50</power>
-                <cooldownTime>1.5</cooldownTime>
-				<armorPenetration>1.5</armorPenetration>
+                <power>40</power>
+                <cooldownTime>.75</cooldownTime>
+				<armorPenetration>2</armorPenetration>
             </li>
 			<li>
 				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>10</power>
-				<cooldownTime>2.5</cooldownTime>
-				<armorPenetration>0.5</armorPenetration>
+				<power>33</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>2</armorPenetration>
 			</li>
         </tools>
     </ThingDef>

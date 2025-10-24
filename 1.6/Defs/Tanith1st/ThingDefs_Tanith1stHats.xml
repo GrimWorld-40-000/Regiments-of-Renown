@@ -34,6 +34,7 @@
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.15</AimingDelayFactor>
 			<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+			<Sight>.2</Sight>
 		</equippedStatOffsets>
 		<stuffCategories Inherit="False" />
 		<costStuffCount Inherit="False" />

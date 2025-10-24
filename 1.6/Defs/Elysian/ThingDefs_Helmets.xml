@@ -18,11 +18,11 @@
 			<Chemfuel>10</Chemfuel>
         </costList>
         <statBases>
-			<WorkToMake>40000</WorkToMake>
+			<WorkToMake>12000</WorkToMake>
 			<MaxHitPoints>150</MaxHitPoints>
 			<MarketValue>550</MarketValue>
             <Mass>1.5</Mass>
-            <ArmorRating_Sharp>0.83</ArmorRating_Sharp>
+            <ArmorRating_Sharp>0.90</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
             <ArmorRating_Heat>0.45</ArmorRating_Heat>
 			<Insulation_Cold>9</Insulation_Cold>
@@ -60,7 +60,7 @@
 			<Chemfuel>10</Chemfuel>
         </costList>
         <statBases>
-			<WorkToMake>40000</WorkToMake>
+			<WorkToMake>12000</WorkToMake>
 			<MaxHitPoints>150</MaxHitPoints>
 			<MarketValue>350</MarketValue>
             <Mass>1.3</Mass>
@@ -73,6 +73,7 @@
         </statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
+            <Sight>0.15</Sight>
 		</equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_ElysianDropTroopers</researchPrerequisite>

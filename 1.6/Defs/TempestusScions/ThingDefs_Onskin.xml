@@ -15,7 +15,7 @@
         <costStuffCount>100</costStuffCount>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
-            <WorkToMake>30000</WorkToMake>
+            <WorkToMake>7000</WorkToMake>
 			<MarketValue>200</MarketValue>
 			<Mass>1</Mass>
             <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>

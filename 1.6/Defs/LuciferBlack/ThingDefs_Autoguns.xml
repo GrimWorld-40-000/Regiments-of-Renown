@@ -51,7 +51,7 @@
                 <defaultProjectile>GW_HOI_Bullet_Bolter</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
                 <range>36</range>
-				<burstShotCount>4</burstShotCount>
+				<burstShotCount>5</burstShotCount>
                 <soundCast>GW_Heavy_Bolt_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -97,7 +97,7 @@
             <li>GW_Rippergun</li>
         </weaponTags>
         <statBases>
-            <WorkToMake>13000</WorkToMake>
+            <WorkToMake>15000</WorkToMake>
             <Mass>8.4</Mass>
             <AccuracyTouch>0.95</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
