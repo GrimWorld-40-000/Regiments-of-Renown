@@ -73,7 +73,6 @@
         </statBases>
 		<equippedStatOffsets>
 			<AimingDelayFactor>0.05</AimingDelayFactor>
-            <Sight>0.15</Sight>
 		</equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_AM_ElysianDropTroopers</researchPrerequisite>

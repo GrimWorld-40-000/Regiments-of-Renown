@@ -31,7 +31,6 @@
         <equippedStatOffsets>
             <MoveSpeed>0.1</MoveSpeed>
             <RangedWeapon_Cooldown>-0.20</RangedWeapon_Cooldown>
-            <ReloadTime>-0.20</ReloadTime>
         </equippedStatOffsets>
         <apparel>
             <wornGraphicPath>Catachan/Apparel/CatachanOuter/CatachanOuter</wornGraphicPath>
