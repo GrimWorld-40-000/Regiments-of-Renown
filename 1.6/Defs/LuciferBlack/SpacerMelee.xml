@@ -112,11 +112,11 @@
             </li>
             <li>
                 <label>edge</label>
-                <capacities>0
-                    <li>Cut</li>
-                </capacities>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
                 <power>40</power>
-                <cooldownTime>.75</cooldownTime>
+				<cooldownTime>0.75</cooldownTime>
 				<armorPenetration>2</armorPenetration>
             </li>
 			<li>
