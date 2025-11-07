@@ -10,7 +10,7 @@
             <texPath>SteelLegion/Weapons/Voss MKI</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>16000</WorkToMake>
+            <WorkToMake>8000</WorkToMake>
             <Mass>3.1</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -71,7 +71,7 @@
 
         <!-- Sanctified Voss MKI -->
 
-    <ThingDef ParentName="GW_HOI_SanctifiedLasgunBase">
+    <!--<ThingDef ParentName="GW_HOI_SanctifiedLasgunBase">
         <defName>GW_HOI_Gun_VossPatternsanctified</defName>
         <label>Sanctified Voss MKI</label>
         <description>A Voss MKI lasgun that was sanctified. Even a weak ritual performed by the skeptical can have an effect on a weapon, as the warp-echo of sanctification frightens and weakens them. After all, the user believed in the ritual enough to try doing it. \n\nChaos cults are one of the greatest threats to Imperial stability. Such worship is heresy of the highest order, punishable by painful, gory death. The cults typically focus on increasing their power or summoning daemons and Chaos Space Marines, but the most ambitious of the cultists intend on becoming Chaos Champions… and ascending to daemonhood as Daemon Princes.</description>
@@ -134,10 +134,5 @@
                 <armorPenetration>0.13</armorPenetration>
             </li>
         </tools>
-		<comps>
-			<!-- <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"> -->
-				<!-- <maxNumberCraftable>5</maxNumberCraftable> -->
-			<!-- </li> -->
-		</comps>
-    </ThingDef>
+    </ThingDef> -->
 </Defs>

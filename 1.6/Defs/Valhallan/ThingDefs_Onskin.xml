@@ -13,13 +13,17 @@
             <texPath>Valhallan/Apparel/OnSkin/greatcoat_Male_south</texPath>
         </graphicData>
         <costStuffCount>90</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
         <statBases>
             <WorkToMake>10000</WorkToMake>
             <MaxHitPoints>180</MaxHitPoints>
 			<MarketValue>160</MarketValue>
 			<Mass>1.5</Mass>
             <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>1.8</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Cold>2</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
         </statBases>
         <apparel>
@@ -42,15 +46,19 @@
             <texPath>Valhallan/Apparel/OnSkin/officergreatcoat_Male_south</texPath>
         </graphicData>
         <costStuffCount>100</costStuffCount>
+         <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
         <equippedStatOffsets>
-            <SocialImpact>0.05</SocialImpact>
+            <SocialImpact>0.10</SocialImpact>
         </equippedStatOffsets>	
         <statBases>
             <MaxHitPoints>195</MaxHitPoints>
-            <WorkToMake>15000</WorkToMake>
+            <WorkToMake>11000</WorkToMake>
             <MarketValue>200</MarketValue>
             <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>1.10</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Cold>2</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
         </statBases>
         <apparel>

@@ -3,7 +3,7 @@
             <!-- Tallarn Desert Raiders -->
 	<ThingDef ParentName="GW_HOI_ArmorBase">
 		<defName>GW_HOI_ROR_TDR_DesertGear</defName>
-		<label>Tallarn desert gear</label>
+		<label>Tallarn Desert Gear</label>
 		<description>A lightweight battle rig typically worn by soldiers of the Tallarn Desert Raiders. It combines a lightweight version of Flak Armor with a carrier rig for extra storage. \n\nThe soldiers of Tallarn are well-known in the Imperium for their hit-and-run tactics, delivering death by a thousand cuts. They particularly specialize in their use of Sentinel light combat walkers, using them to quickly strike and withdraw before the enemy could respond.</description>
 		<recipeMaker>
 			<researchPrerequisite>GW_AM_TallarnDesertRaiders</researchPrerequisite>
@@ -15,15 +15,15 @@
 			<texPath>Things/Tallarn/Middle/DesertGear_Male_south</texPath>
 		</graphicData>
 		<statBases>
-			<WorkToMake>60000</WorkToMake>
+			<WorkToMake>12000</WorkToMake>
 			<MaxHitPoints>550</MaxHitPoints>
 			<MarketValue>900</MarketValue>
 			<Mass>6</Mass>
-			<ArmorRating_Sharp>0.89</ArmorRating_Sharp>
+			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.56</ArmorRating_Heat>
 			<Insulation_Cold>6</Insulation_Cold>
-			<Insulation_Heat>8</Insulation_Heat>
+			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -31,6 +31,7 @@
 			<SlaveSuppressionOffset MayRequire="ludeon.rimworld.ideology">0.1</SlaveSuppressionOffset>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 			<PainShockThreshold>0.15</PainShockThreshold>
+			<MoveSpeed>1</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<HP_Ceramite>20</HP_Ceramite>

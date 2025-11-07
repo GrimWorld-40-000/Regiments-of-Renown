@@ -15,7 +15,7 @@
 			<Mass>0.5</Mass>
 			<MaxHitPoints>150</MaxHitPoints>
 			<MarketValue>90</MarketValue>
-            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
 		</statBases>

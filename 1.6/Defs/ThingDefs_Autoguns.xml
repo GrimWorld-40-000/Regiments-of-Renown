@@ -17,7 +17,7 @@
             </skillRequirements>
         </recipeMaker>
         <statBases>
-            <WorkToMake>30000</WorkToMake>
+            <WorkToMake>8500</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.8</AccuracyTouch>
             <AccuracyShort>0.6</AccuracyShort>
@@ -69,7 +69,23 @@
     </ThingDef>
   
   <!-- ====================== Zarona MKII  ===================== -->
-  
+    <ThingDef ParentName="BaseBullet">
+      <defName>GW_Bullet_HeavyStubber</defName>
+      <label>heavy stubber round</label>
+      <graphicData>
+              <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+      </graphicData>
+      <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>20</damageAmountBase>
+        <stoppingPower>0.5</stoppingPower>
+        <armorPenetrationBase>0.4</armorPenetrationBase>
+        <speed>80</speed>
+      </projectile>
+    </ThingDef>
+
     <ThingDef ParentName="GW_HOI_AutogunBase">
         <defName>GW_HOI_Gun_Zarona</defName>
         <label>Zarona MKII</label>
@@ -87,7 +103,7 @@
             <AccuracyShort>0.65</AccuracyShort>
             <AccuracyMedium>0.43</AccuracyMedium>
             <AccuracyLong>0.25</AccuracyLong>
-            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
         <weaponTags>
             <li>Revolver</li>
@@ -163,7 +179,7 @@
             <displayPriority>410</displayPriority>
         </recipeMaker>
         <statBases>
-            <WorkToMake>11000</WorkToMake>
+            <WorkToMake>5000</WorkToMake>
             <Mass>2.5</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -231,7 +247,7 @@
             <displayPriority>445</displayPriority>
         </recipeMaker>
         <statBases>
-            <WorkToMake>38000</WorkToMake>
+            <WorkToMake>10000</WorkToMake>
             <Mass>12</Mass>
             <AccuracyTouch>0.34</AccuracyTouch>
             <AccuracyShort>0.48</AccuracyShort>
@@ -253,8 +269,8 @@
                 <defaultProjectile>GW_Bullet_HeavyStubber</defaultProjectile>
                 <warmupTime>2</warmupTime>
                 <range>27.9</range>
-                <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
-                <burstShotCount>9</burstShotCount>
+                <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
+                <burstShotCount>12</burstShotCount>
                 <soundCast>GW_AM_Gun_Hiveworldautopistol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>

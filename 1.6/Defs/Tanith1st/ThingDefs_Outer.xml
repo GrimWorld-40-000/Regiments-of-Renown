@@ -25,7 +25,7 @@
             <MaxHitPoints>190</MaxHitPoints>
             <WorkToMake>10000</WorkToMake>
             <Mass>1</Mass>
-            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
             <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
             <EquipDelay>3</EquipDelay>
@@ -83,7 +83,8 @@
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-			<HuntingStealth>0.3</HuntingStealth>
+			<HuntingStealth>1</HuntingStealth>
+            <AimingDelayFactor>-.3</AimingDelayFactor>
         </equippedStatOffsets>
         <apparel>
             <wornGraphicPath>Tanith1st/Apparel/Ghillie/Ghili</wornGraphicPath>

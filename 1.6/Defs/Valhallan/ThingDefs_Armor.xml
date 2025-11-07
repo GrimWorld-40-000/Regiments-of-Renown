@@ -17,14 +17,14 @@
             <texPath>Valhallan/Apparel/Middle/armor_Male_south</texPath>
         </graphicData>
         <statBases>
-            <WorkToMake>40500</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <MaxHitPoints>310</MaxHitPoints>
 			<MarketValue>1000</MarketValue>
             <Mass>5.2</Mass>
-            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.34</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.33</ArmorRating_Heat>
-            <Insulation_Cold>6</Insulation_Cold>
+            <ArmorRating_Sharp>0.90</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.25</ArmorRating_Heat>
+            <Insulation_Cold>15</Insulation_Cold>
 			<Insulation_Heat>9</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
         </statBases>
