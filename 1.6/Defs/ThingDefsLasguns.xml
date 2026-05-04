@@ -11,7 +11,7 @@
         </graphicData>
         <statBases>
             <WorkToMake>12000</WorkToMake>
-            <Mass>3.5</Mass>
+            <Mass>4</Mass>
             <AccuracyTouch>0.35</AccuracyTouch>
             <AccuracyShort>0.50</AccuracyShort>
             <AccuracyMedium>0.70</AccuracyMedium>
